@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin');
 const withMT = require("@material-tailwind/html/utils/withMT");
 
 module.exports = withMT({
-  content: ["./src/**/*.{html,js}", './src/index.html',],
+  content: ["./Components/**/*.{html,js}", './src/index.html',],
   theme: {
     extend: {
       colors: {

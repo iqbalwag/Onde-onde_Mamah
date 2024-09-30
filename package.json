@@ -9,7 +9,7 @@
   "name": "belajar-tailwind",
   "version": "1.0.0",
   "description": "belajar tailwind",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
     "@material-tailwind/html": "^2.3.0"
   }
