@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin');
 const withMT = require("@material-tailwind/html/utils/withMT");
 
 module.exports = withMT({
-  content: ["./src/**/*.{html,js}", './src/index.html',],
+  purge: ["./src/**/*.{html,js}", './src/index.html',],
   theme: {
     extend: {
       colors: {
@@ -17,7 +17,7 @@ module.exports = withMT({
         }
       },
       screens: {
-        'phone': { 'max': '448px' },
+        'phone': { 'max': '448px' }
       },
     },
   },
