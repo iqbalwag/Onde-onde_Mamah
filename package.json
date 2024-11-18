@@ -4,7 +4,8 @@
   },
   "scripts": {
     "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify && --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install tailwindcss postcss autoprefixer"
   },
   "name": "belajar-tailwind",
   "version": "1.0.0",

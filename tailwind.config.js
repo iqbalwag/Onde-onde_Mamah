@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require('tailwindcss/plugin');
-const withMT = require("@material-tailwind/html/utils/withMT");
+const withMT = require('@material-tailwind/html/utils/withMT');
 
 module.exports = withMT({
   content: ["./src/**/*.{html,js}", './src/index.html'],
@@ -23,7 +23,7 @@ module.exports = withMT({
   },
   plugins: [plugin(function ({ addVariant }) {
     addVariant('affore', ['&:after', '&:before'])
-  })],
+  })]
 })
 
 
