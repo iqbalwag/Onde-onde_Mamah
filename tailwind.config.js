@@ -23,7 +23,7 @@ module.exports = withMT({
   },
   plugins: [plugin(function ({ addVariant }) {
     addVariant('affore', ['&:after', '&:before'])
-  })]
-})
+  })],
+});
 
 
